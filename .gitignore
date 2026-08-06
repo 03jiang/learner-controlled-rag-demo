@@ -1,0 +1,30 @@
+.DS_Store
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# RAG indexes and downloaded model weights
+backend/data/chroma/
+backend/data/models/
+
+# Node / Next.js
+node_modules/
+.next/
+npm-debug.log*
+
+# Local scratch artifacts
+work/
+outputs/
+
+# Local AI coding-tool instructions
+frontend/AGENTS.md
+frontend/CLAUDE.md
